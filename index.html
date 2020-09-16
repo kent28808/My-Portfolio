@@ -9,42 +9,53 @@
   <title>Responsive-Portfolio</title>
 </head>
 
-<body class="h-100">
+<body class="h-80 bg-secondary">
   <div class="container">
-  <nav class="navbar navbar-expand navbar-light bg-light w-100">
-    <div class="row w-100">
-    <nav class="navbar navbar-light bg-light col-md-6 mr-auto">
-      <span class="navbar-brand mb-0 h1">Ken T.</span>
+    <nav class="navbar navbar-expand navbar-light bg-light">
+      <div class="row w-100">
+        <nav class="navbar navbar-light bg-light col-md-6 mr-auto">
+          <span class="navbar-brand mb-0 h1 bg-info text-light">Ken T.</span>
+        </nav>
+        <div class="collapse navbar-collapse col-md-6" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
-    <div class="collapse navbar-collapse col-md-6" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-  </nav>
-  <div class="h-50 row mt-4">
-    <div class="card col-md-12 col-lg-10 py-4">
-      <h5 class="card-title">About Me</h5>
-      <div class="row">
-      <img class="img-thumbnail col-md-4"
-        src="https://www.anthonymorganti.com/wp-content/uploads/2016/01/One-Cool-Cat-620x413.jpg" alt="Card image cap">
-      <div class="card-body col-md-8">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-          content.</p>
+    <div class="h-50 row mt-4">
+      <div class="card col-md-12 col-lg-8 py-4">
+        <h5 class="card-title text-info">About Me</h5>
+        <hr>
+        <div class="row">
+          <img class="img-thumbnail col-md-4"
+            src="https://www.anthonymorganti.com/wp-content/uploads/2016/01/One-Cool-Cat-620x413.jpg"
+            alt="Card image cap">
+          <div class="card-body col-md-8">
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dignissim odio urna.
+              Donec ex urna, mollis eget dapibus sollicitudin, pretium ac lacus. Suspendisse ligula sapien, tempor id
+              pulvinar eu, dapibus a ante. Sed volutpat felis varius lorem porttitor consequat. Donec tincidunt velit
+              sit amet euismod fringilla. Suspendisse volutpat ullamcorper mi, et gravida leo laoreet vitae. Nulla non
+              eros feugiat, pharetra purus nec, consequat sapien. Maecenas eleifend eros vitae felis rutrum consectetur.
+              Etiam sodales tortor pharetra sem sagittis fringilla. Aliquam in enim id odio vulputate rhoncus vel
+              accumsan orci.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-    </div>
-  </div>
   </div>
 </body>
+<nav class="navbar fixed-bottom navbar-light bg-dark">
+  <a class="navbar-brand text-center text-light" href="#">Copyright</a>
+</nav>
 
 </html>
