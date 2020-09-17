@@ -6,6 +6,9 @@ Using Bootstrap v4.5.2, I created my first responsive portfolio website!
 
 This is my second project, where i was tasked with creating my own personal responsive portfolio website.  The pages created were "contact.html", "index.html", and "portfolio.html".  These are all functional/responsive pages that were built using Bootstrap components and grid system, that will display correctly on any device screen that is using Google Chrome as a browser.  A consistent Navbar and Footer was added to each section and semantic html was incorporated into each section of code where applicable. 
 
+## Features
+
+
 ## Built With
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -13,14 +16,14 @@ This is my second project, where i was tasked with creating my own personal resp
 
 ## Deployed Link
 
-* [Deployed link]()
+* [Deployed link](https://kent28808.github.io/Responsive-Portfolio/)
 
 
 ## Authors
 
 * **Ken Tanoue** 
 
-- [Link to Portfolio Site]()
+- [Link to Portfolio Site](https://kent28808.github.io/Responsive-Portfolio/portfolio.html)
 - [Link to Github](https://github.com/kent28808/)
 
 ## License
@@ -49,4 +52,4 @@ SOFTWARE.
 
 ## Acknowledgments
 
-* Hats off to Bootstrap v4.5.2
+* Hats off to instructional staff and Bootstrap v4.5.2.
